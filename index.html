@@ -1,0 +1,639 @@
+<!--
+    
+████████╗ ██████╗ ██╗   ██╗██████╗ ███████╗
+╚══██╔══╝██╔═══██╗██║   ██║██╔══██╗██╔════╝
+   ██║   ██║   ██║██║   ██║██████╔╝███████╗
+   ██║   ██║   ██║██║   ██║██╔══██╗╚════██║
+   ██║   ╚██████╔╝╚██████╔╝██║  ██║███████║
+   ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
+
+ █████╗ ██████╗  ██████╗ ██╗   ██╗███╗   ██╗██████╗ 
+██╔══██╗██╔══██╗██╔═══██╗██║   ██║████╗  ██║██╔══██╗
+███████║██████╔╝██║   ██║██║   ██║██╔██╗ ██║██║  ██║
+██╔══██║██╔══██╗██║   ██║██║   ██║██║╚██╗██║██║  ██║
+██║  ██║██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝ 
+
+ █████╗ ██████╗ ███████╗██╗      █████╗ ██╗██████╗ ███████╗
+██╔══██╗██╔══██╗██╔════╝██║     ██╔══██╗██║██╔══██╗██╔════╝
+███████║██║  ██║█████╗  ██║     ███████║██║██║  ██║█████╗  
+██╔══██║██║  ██║██╔══╝  ██║     ██╔══██║██║██║  ██║██╔══╝  
+██║  ██║██████╔╝███████╗███████╗██║  ██║██║██████╔╝███████╗
+╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝
+
+
+Made with ♥ by Ryan Carmody.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<meta name="description" content="The Free 'tips based' Walking Tour of Adelaide by Tours Around Adelaide. Join us for a two hour walk through the streets of Adelaide."/>
+
+		<meta name="keywords" content="adelaide free walking tour, free walking tours adelaide, tours around adelaide, tips based walking tours adelaide, walking tour adelaide, tourist attractions adelaide, things to do in adelaide, what to do in adelaide, adelaide tours">
+		
+		<meta name="author" content="Ryan Carmody">
+		
+		<!--Social Media-->
+		<meta property="og:title" content="Tours Around Adelaide - Free Walking Tours">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="The Free 'tips based' Walking Tour of Adelaide by Tours Around Adelaide. Join us for a two hour walk through the streets of Adelaide.">
+		<meta property="og:url" content="www.toursaroundadelaide.com.au" />
+		<meta property="og:image" content="images/social.jpg" />
+		<meta property="og:locale" content="en_AU" />
+		
+		<!--Twitter-->
+		
+		<meta name="twitter:title" content="Tours Around Adelaide - Free Walking Tours">
+        <meta name="twitter:description" content=" The Free 'tips based' Walking Tour of Adelaide by Tours Around Adelaide. Join us for a two hour walk through the streets of Adelaide.">
+        <meta name="twitter:image" content="images/social.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+
+	<!-- Title -->
+		<title>Adelaide Free Walking Tour - Tours Around Adelaide</title>
+
+	<!-- Stylesheets -->
+		<link rel="stylesheet" href="CSS/index.css">
+		<link rel="stylesheet" href="CSS/nav.css">
+		<link rel="stylesheet" href="CSS/hover.css">
+		<link rel="stylesheet" href="CSS/photo.css">
+		<link rel="stylesheet" href="CSS/high.css">
+		<!-- three bars for mobile sites -->
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+	<!-- Pure CSS -->
+<!-- 	    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"> -->
+	    
+<!-- 	    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous"> -->
+
+	    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+
+
+
+    <!-- jQuery -->
+		
+
+
+	<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Barrio&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+	<!-- Javascript -->
+		<script src="JavaScript/nav.js" defer></script>
+		<!--<script src="JavaScript/functions.js"></script>-->
+
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+    
+	<!--<![endif]-->
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108089993-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-108089993-1');
+    </script>
+
+</head>
+
+<body>
+    
+<img style="display: none" src="images/walking-tour.jpg" alt="Free Walking Tours of Adelaide">
+
+<header>
+	<div class="topnav" id="myTopnav">
+		<a style="float: left; padding: 0px;" class="navigationItem noHover" href="index.html">
+			<img id="logo" class="" src="images/logo.png" alt="tours around adelaide logo">
+		</a>
+		
+		<form action="https://fareharbor.com/embeds/book/toursaroundadelaide/items/63607/calendar/?flow=140">
+			<button class="pure-button">Book Now</button>
+  		</form>
+
+  		<nav>
+	  		<a class="navigationItem" href="directions.html">Directions</a>
+	  		<a class="navigationItem" href="weather.html">Weather Policy</a>
+	  		<a class="navigationItem" href="about-us.html">About</a>
+	  		<a class="navigationItem" href="index.html">Home</a>
+	  		
+	  		<a href="javascript:void(0);" class="icon navigationItem" onclick="myFunction()">
+	    		<i class="fa fa-bars"></i>
+	  		</a>
+	  	</nav>
+	</div>
+	<div class="bookNowBottom">
+		<form action="https://fareharbor.com/embeds/book/toursaroundadelaide/">
+			<button class="bttn buttonShadow buttonSize">Book Now</button>
+		</form>	
+	</div>
+</header>
+
+<div>
+	<div class="b-ground">
+	</div>
+	<picture class="background-image">
+		<source srcset="images/background.webp" type="image/webp">
+		<source srcset="images/adelaide2.jpg" type="image/jpeg"> 
+		<img  class="background-image" src="/images/adelaide2.jpg" alt="Adelaide City">
+	</picture>
+</div>
+
+<div style="text-align: center;" class="insideDiv">
+
+	<div class="topLogo">
+		<img class="logoPic" src="images/logo.png" alt="tours around adelaide logo">
+	</div>
+	<h1 style="margin-bottom: 0px; margin-top: 0px;"><strong>Adelaide Free Walking Tour</strong></h1>
+	<p style="margin-top: 10px;"><strong>Touring Adelaide since 2016</strong></p>
+
+	<form action="https://fareharbor.com/embeds/book/toursaroundadelaide/items/63607/calendar/?flow=140">
+		<button style="background-color: #FFF200; color: black;" class="buttonDisplay buttonShadow buttonSize">
+			Book Now
+		</button>
+	</form>
+	
+		<!--<form action="https://fareharbor.com/embeds/book/toursaroundadelaide/">-->
+		<!--	<button style="background-color:yellow;" class="bttn2 buttonShadow">-->
+		<!--		Book Now-->
+		<!--	</button>-->
+		<!--</form>-->
+
+</div>
+
+<br>
+<br>
+
+
+	<h2 class="betweenDivs">The Tour</h2>
+		<div class="margins divNormal">
+				<p><strong>Your introduction to the City of Adelaide!</strong><br><br>Uncover Adelaide with your friendly and knowledgeable local tour guide. Join me on a two and a half hour walking tour through the streets of Adelaide.</p>
+		</div>
+
+
+
+<br>
+<br>
+
+<h2 class="betweenDivs">Highlights</h2>
+
+<br>
+
+
+<div class="margins pure-g">
+
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+    	<div class="high">
+			<img src="images/arcade.jpg" alt="Adelaide Arcade">
+			<p>History & Culture</p>
+    	</div>
+
+    </div>
+
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+    	<div class="high">
+			<img src="images/streetart.jpg" alt="Street Art in Adelaide">
+			<p>Laneways & Street Art</p>
+    	</div>
+    </div>
+
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+    	<div class="high">
+    		<img src="images/riverbank.jpg" alt="Riverbank Region of Adelaide">
+    		<p>Riverbank & Adelaide Oval/Sport</p>
+    	</div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+    	<div class="high">
+    		<img src="images/coffee.jpg" alt="Coffee in Adelaide">
+    		<p>Best Coffee in Town!</p>
+    	</div>
+    </div>
+    
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+<h2 class="betweenDivs">Details</h2>
+
+<div class="margins pure-g">
+    <div class="pure-u-1 pure-u-md-1-6"> 
+    	
+    	<div class="border hvr-bob">
+
+    		<div>
+    			<img class="insideDetails" src="images/icons/calendar.png" alt="calendar icon">
+    			<p><strong>When</strong></p>
+    		</div>
+    		<br>
+    		<p>Monday, Thursday & Saturday</p>
+    	</div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-6"> 
+    	
+    	<div class="border hvr-bob">
+
+    		<div>
+    			<img class="insideDetails" src="images/icons/time.png" alt="time icon">
+    			<p><strong>Start Time</strong></p>
+    		</div>
+    		<br>
+    		<p>10am</p>
+    	</div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-6"> 
+    	
+    	<div class="border hvr-bob">
+
+    		<div>
+    			<img class="insideDetails" src="images/icons/timer.png" alt="timer icon">
+    			<p><strong>Duration</strong></p>
+    		</div>
+    		<br>
+    		<p>2 - 2.5 Hours</p>
+    	</div>
+    </div>
+
+
+    <div class="pure-u-1 pure-u-md-1-6"> 
+    	
+    	<div class="border hvr-bob">
+
+    		<div>
+    			<img class="insideDetails" src="images/icons/price.png" alt="price icon">
+    			<p><strong>Price</strong></p>
+    		</div>
+    		<br>
+    		<p>Free to come on (Tips Based)</p>
+    	</div>
+    </div>
+
+
+    <div class="pure-u-1 pure-u-md-1-6"> 
+    	
+    	<div class="border hvr-bob">
+
+    		<div>
+    			<img class="insideDetails" src="images/icons/booking.png" alt="fareharbor icon">
+    			<p><strong>Bookings</strong></p>
+    		</div>
+    		<br>
+    		<p>Essential!</p>
+    	</div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-6"> 
+    	<a href="directions.html">
+    	<div style="display: inline-block;" class="border">
+    		
+    		<div>
+    			<img class="insideDetails" src="images/icons/directions.png" alt="directions icon">
+    			<p><strong>Directions</strong></p>
+    		</div>
+    		<br>
+    		<p>Click Here!</p>
+    	</div>
+    	</a>
+    </div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h2 class="margins betweenDivs">Why choose Tours Around Adelaide?</h2>
+<br>
+
+<div class="margins pure-g">
+
+
+
+    <div class="pure-u-1 pure-u-md-1-3"> 
+
+    	<a href="https://www.tripadvisor.com.au/Attraction_Review-g255093-d11817226-Reviews-Tours_Around_Adelaide-Adelaide_Greater_Adelaide_South_Australia.html" target="_blank">
+
+    	<div class="divShadow whyChooseUs">
+    		<picture>
+				<source srcset="images/tripadvisor.png" type="image/webp">
+				<source srcset="images/tripadvisor.png" type="image/jpeg"> 
+				<img class="tripadvisor" src="images/tripadvisor.png" alt="Adelaide City">
+			</picture>
+    		<p style="margin-top: 5px;" class="textUnder">Rated 5/5 from 100+ reviews (Click to see)</p>
+    	</div>
+    	</a>
+    </div>
+
+	
+	
+    <div class="pure-u-1 pure-u-md-1-3"> 
+    	<div class="divShadow whyChooseUs">
+    		<picture>
+				<source srcset="images/group.png" type="image/webp">
+				<source srcset="images/group.png" type="image/jpeg"> 
+				<img class="tripadvisor" src="images/group.png" alt="Adelaide City">
+			</picture>
+    		<p style="margin-top: 5px;" class="textUnder">6000+ people attended</p>
+    	</div>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-3"> 
+    	<div class="divShadow whyChooseUs">
+    		<picture>
+				<source srcset="images/icons/calendar.png" type="image/webp">
+				<source srcset="images/icons/calendar.png" type="image/jpeg"> 
+				<img class="tripadvisor" src="images/icons/calendar.png" alt="Adelaide City">
+			</picture>
+    		<p style="margin-top: 5px;" class="textUnder">Touring Adelaide since 2016!</p>
+    	</div>
+    </div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+
+<h2 class="betweenDivs">Free Tour?</h2>
+
+
+<div class="margins divNormal">
+	<p>The free walking tour concept started in 2005 in Berlin. Instead of tours having up front costs, participants are invited to come along on the tour, and at the end, if they think the tour is worth their time and money they can pay what they think it is worth. If your guide is awesome, give them an awesome tip, if not, you don't have to give them anything. You will never be pressured to tip! Free walking tours now operate in 105 cities around the world, mostly by independent local operators, just like this one!</p>
+
+</div>
+
+<!-- <br>
+<br>
+<br>
+
+<h2 class="betweenDivs">Your tour guide</h2>
+<br>
+
+	<div class="margins">
+		<div class="photoRyan">
+			<img src="images/tour-guide-ryan.jpg" alt="Your Tour Guide Ryan">
+			<p>Your tour guide, Ryan</p>
+		</div>
+		
+		<div class="photoRyan">
+			<img src="images/first-walking-tour.jpg" alt="Your Tour Guide Ryan">
+			<p>First tour ever in 2016!</p>
+		</div>
+		
+	</div>
+
+<div class="margins divNormal">
+	<p>Hi, I'm Ryan. I'll be the tour guide that will show you around this beautiful city. Other than tour guiding, I study full-time at the University of Adelaide and work at the newly renovated Adelaide Oval. I can't wait to show you around Adelaide!</p>
+<form action="about-us.html">
+	<button class="buttonShadow buttonSize">
+		Learn More
+	</button>
+</form>
+</div> -->
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+<!-- photo gallery -->
+
+<h2 class="betweenDivs">Gallery</h2>
+
+  <div class="gallery-image">
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/adelaide-riverbank.webp" type="image/webp">
+			<source srcset="images/gallery/adelaide-riverbank.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/adelaide-riverbank.jpg" alt="Checking out the Adelaide Riverbank">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Riverbank</p>
+          	<p class="opacity-low">Checking out the Riverbank and Adelaide Oval</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/adelaide-arcade.webp" type="image/webp">
+			<source srcset="images/gallery/adelaide-arcade.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/adelaide-arcade.jpg" alt="Checking out the Adelaide Arcade">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Adelaide Arcade</p>
+          	<p class="opacity-low">Oldest Arcade in Adelaide</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/adelaide-railway-station.webp" type="image/webp">
+			<source srcset="images/gallery/adelaide-railway-station.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/adelaide-railway-station.jpg" alt="Checking out the Adelaide Railway Station">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Adelaide Railway Station</p>
+          	<p class="opacity-low">Half railway station, half casino?</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/bonobo-espresso.webp" type="image/webp">
+			<source srcset="images/gallery/bonobo-espresso.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/bonobo-espresso.jpg" alt="Best Coffee in Town at Bonobo Espresso">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Bonobo Espresso - Owner Derek</p>
+          	<p class="opacity-low">Best Coffee in Town!</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/malls-balls-adelaide.webp" type="image/webp">
+			<source srcset="images/gallery/malls-balls-adelaide.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/malls-balls-adelaide.jpg" alt="Checking out the Adelaide Malls Balls">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Mall's Balls reflection</p>
+          	<p class="opacity-low">Number one icon in Adelaide</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/walking-riverbank-footbridge.webp" type="image/webp">
+			<source srcset="images/gallery/walking-riverbank-footbridge.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/walking-riverbank-footbridge.jpg" alt="Walking along the Adelaide Riverbank Footbridge">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Riverbank Footbridge</p>
+          	<p class="opacity-low">Walking over the River Torrens</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/group-photo.webp" type="image/webp">
+			<source srcset="images/gallery/group-photo.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/group-photo.jpg" alt="Checking out the Adelaide Riverbank">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Group Photo</p>
+          	<p class="opacity-low">Happy Travellers</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/group-photo-2.webp" type="image/webp">
+			<source srcset="images/gallery/group-photo-2.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/group-photo-2.jpg" alt="Checking out the Adelaide Riverbank">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Group Photo</p>
+          	<p class="opacity-low">Happy Travellers</p>
+        	</div>
+      	</div> 
+    </div>
+
+    <div class="img-box">
+		<picture>
+			<source srcset="images/webp/group-photo-3.webp" type="image/webp">
+			<source srcset="images/gallery/group-photo-3.jpg" type="image/jpeg"> 
+			<img class="" src="images/gallery/group-photo-3.jpg" alt="Checking out the Adelaide Riverbank">
+		</picture>
+      	<div class="transparent-box">
+        	<div class="caption">
+          	<p>Group Photo</p>
+          	<p class="opacity-low">Happy Travellers</p>
+        	</div>
+      	</div> 
+    </div>
+
+  </div>
+
+<!--<div class="margins divNormal">-->
+<!--  	<p>What to see more photos? Check out our Instagram</p>-->
+
+<!--  	<form action="https://www.instagram.com/toursaroundadelaide/" target="_blank">-->
+<!--	  	<button style="width: auto;" class="buttonShadow buttonSize">-->
+<!--			Go to Instagram-->
+<!--		</button>-->
+<!--	</form>-->
+<!--</div>-->
+<br>
+<br>
+<br>
+
+<footer>
+	<div class="footer pure-g">
+
+	    <div class="pure-u-1 pure-u-md-1-2"> 
+		    <div class="">
+				<p><a href="index.html">Home</a> &nbsp;&nbsp;| &nbsp;&nbsp;<a href="about-us.html">About</a> &nbsp;&nbsp;| &nbsp;&nbsp;<a href="weather.html">Weather Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="directions.html">Directions</a></p>
+				<p><a href="mailto:hello@toursaroundadelaide.com.au?Subject=Walking%20Tour%20Inquiry" target="_top">hello@toursaroundadelaide.com.au</a></p>
+			</div>
+	    </div>
+
+	    <div class="pure-u-1 pure-u-md-1-2"> 
+		    <div style="" class="rightFooter"> 
+
+					
+				<br>
+					<a href="https://www.facebook.com/toursaroundadelaide" target="_blank">
+						<picture>
+							<source srcset="images/icons/facebook.webp" type="image/webp">
+							<source srcset="images/icons/facebook.png" type="image/jpeg"> 
+							<img class="social" src="images/icons/facebook.png" alt="Facebook Icon">
+						</picture>
+					</a>
+
+					<a href="https://www.instagram.com/toursaroundadelaide/" target="_blank">
+						<picture>
+							<source srcset="images/icons/insta.webp" type="image/webp">
+							<source srcset="images/icons/insta.png" type="image/jpeg"> 
+							<img class="social" src="images/icons/insta.png" alt="Instagram Icon">
+						</picture>
+					</a>
+					<p>© 2019 All Rights Reserved - Tours Around Adelaide</p>
+
+		    </div>
+
+
+	    </div>
+	</div>
+
+</footer>
+
+
+
+<!-- <div style="margin-left: 200px; margin-right: 200px;">
+	<script src="https://fareharbor.com/embeds/script/calendar/toursaroundadelaide/items/63607/?fallback=simple&flow=140"></script>
+</div> -->
+
+
+
+<!-- FareHarbor Lightframe API - do not remove - see: https://fareharbor.com/help/website/resources/lightframe-api/ -->
+<!-- <script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script> -->
+
+</body>
+
+</html>
+
