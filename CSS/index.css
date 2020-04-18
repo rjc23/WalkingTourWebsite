@@ -1,0 +1,554 @@
+
+body{
+    background-color: #F0F0F0;
+}
+
+a{text-decoration: none; color: black}
+a:visited { text-decoration: none; color: black}
+a:hover { text-decoration: none; color: black}
+a:focus { text-decoration: none; color: black}
+a:hover, a:active { text-decoration: none; color:black }
+
+
+
+.background-image{
+  display: none;
+}
+
+/*BACKGROUND OPAQUE IMAGE*/
+.b-ground{
+    background-image: url(../images/adelaide-compressed.jpg); /* The image used */
+    background-repeat:no-repeat;
+    background-position:center;
+    filter: brightness(65%);
+    height: 500px;
+/*    opacity: 0.3;*/
+}
+
+.border2{
+    margin: auto;
+    padding: 5px;
+    width: 92%;
+    text-align: center;
+
+}
+
+
+/*Details*/
+.border{
+    margin: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 92%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 15px;
+    text-align: center;
+/*    height: 70px;*/
+}
+
+.border img{
+    display: inline-block;
+}
+
+.border p{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Quattrocento Sans', 'sans serif';
+}
+
+.insideDetails{
+    height: 30px;
+    vertical-align: middle;
+   
+}
+
+.buttonDisplay{
+
+}
+
+.bookNow{
+    background-color: yellow;
+    color: yellow;
+    float: right;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+
+.insideDiv{
+    color: white;
+    position: absolute;
+    text-align: center;
+
+    font-family: 'Barrio', cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px #292c2f;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+
+    top: 60px; left: 0; bottom: 0; right: 0; 
+}
+
+.topLogo{
+    width: 35%;
+    margin: auto;
+/*    display: none;*/
+}
+
+.logoPic{
+    width: 100%;
+    height: auto;
+}
+
+.divShadow{
+    background-color: white;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0.3px;
+    border-radius: 5px;
+
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buttonShadow{
+    border-width: 0.3px;
+    border-radius: 5px;
+
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapsShadow{
+
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0.3px;
+    border-radius: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mapMargins{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.divNormal{
+/*    font-size: 21px;*/
+    font-family: 'Quattrocento Sans', 'sans serif';
+    text-align: center;
+    line-height: 1.6;
+
+}
+.divNormal p{
+    font-size: 15px;
+}
+
+.betweenDivs{
+    font-size: 20px;
+    font-family: 'Quattrocento Sans', 'sans serif';
+    text-align: center;
+}
+
+.fourItems{
+
+    background-color: white;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0.3px;
+    border-radius: 10px;
+
+    text-align: center;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.maxHeight{
+    height: 300px;
+}
+
+.highlights{
+    width: 90%;
+/*    margin: auto;
+    height: auto;*/
+    border-radius: 10px;
+/*    display: block; */
+}
+
+.highlights-image{
+/*    filter: brightness(95%);*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*.highlights-image:hover{
+
+    filter: brightness(105%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+.textUnder{
+    text-align: center; 
+    font-family: 'Quattrocento Sans', 'sans serif';
+    font-size: 15px;
+/*    margin-bottom: 30px;*/
+}
+
+.gap{
+    margin-bottom: 30px;
+}
+
+.margins{
+margin-left: 30px;
+margin-right: 30px;
+text-align: center;
+}
+
+.tripadvisor{
+    height: 60px;
+    width: auto;
+}
+
+.ryan{
+    width: 9%;
+    margin: auto;
+    height: auto;
+    filter: brightness(95%);
+    border-radius: 10px;
+    display: block; 
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left{
+
+}
+.right{
+
+}
+
+.whyChooseUs{
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #F0F0F0;
+}
+
+.buttonSize{
+    font-size: 80%;
+    background-color: #0078E7;
+    color: white;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Quattrocento Sans', 'sans serif';
+}
+
+.buttonSize2{
+
+    font-size: 90%;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Quattrocento Sans', 'sans serif';
+
+}
+
+.bookNowBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    z-index: 2;
+/*    text-align: center;*/
+/*    background-color: #292c2f;*/
+    right: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+/*    background-image: linear-gradient(to bottom right #3B5998, #292c2f);*/
+background-image: linear-gradient(to bottom right, #06214d, #292c2f);
+
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 20px rgba(0, 0, 0, 0.19);
+
+
+}
+.bookNowBottom button{
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px;
+    background-color: #FFF200;
+    color: black;
+    font-family: 'Quattrocento Sans', 'sans serif';
+
+
+    box-shadow: 0 4px 8px 0 rgba(200, 200, 200, 0.2), 0 6px 20px 0 rgba(200, 200, 200, 0.19);    
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to bottom right, #06214d, #292c2f);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+
+    padding: 30px;
+
+    font-size: 15px;
+    font-family: 'Quattrocento Sans', 'sans serif';
+}
+
+.footer a{text-decoration: none; color: white}
+.footer a:visited { text-decoration: none; color: white}
+.footer a:hover { text-decoration: none; color: white}
+.footer a:focus { text-decoration: none; color: white}
+.footer a:hover, .footer a:active { text-decoration: none; color:white }
+
+.rightFooter{
+    text-align: left;
+}
+
+.social
+{
+    width: 45px;
+    height: auto;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+@media (min-width: 45em) {
+
+        .buttonDisplay{
+    display: none;
+}
+
+    .google-maps {
+    padding-bottom: 40%;
+}
+
+    .mapMargins{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+    .rightFooter{
+        text-align: right;
+    }
+
+    .footer{
+        height: 250px;
+    }
+    .bookNowBottom{
+        display: none;
+    }
+
+    .divNormal p{
+    font-size: 22px;
+    }
+
+    .betweenDivs{
+    font-size: 30px;
+    }
+
+    .background-image{
+      width: 100%;
+      height: auto;
+      display: block;
+      filter: brightness(80%);
+    }
+
+    /*BACKGROUND OPAQUE IMAGE*/
+    .b-ground{
+        display: none;
+    /*    opacity: 0.3;*/
+    }
+
+    .insideDiv{
+        height: 100px;
+        font-size: 30px;
+        top: 100px; left: 0; bottom: 0; right: 0; 
+        margin-top: 5%;
+    }
+
+    .logoPic{
+        display: none;
+    }
+    .topLogo{
+        width: 20%;
+    }
+
+    .divShadow{
+    width: 95%;
+    }
+
+    .background-image{
+          width: 100%;
+          height: auto;
+        }
+
+    .border{
+        padding: 15px;
+        /*font-size: 15px;*/
+    }
+
+    .left{
+        margin-left: 0%;
+    }
+    .right{
+        margin-right: 0%;
+    }
+
+}
+    .ryan{
+    width: auto;
+    max-height: 200px;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    display: block; 
+
+    }
+
+    .buttonSize{
+    font-size: 110%;
+    }
+
+
+@media (min-width: 65em) {
+
+
+    .mapMargins{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+    .insideDiv{
+        height: 100px;
+        font-size: 38px;
+        top: 150px; left: 0; bottom: 0; right: 0; 
+    }
+
+    .topLogo{
+        width: 15%;
+    }
+
+    .left{
+        margin-left: 25%;
+    }
+    .right{
+        margin-right: 25%;
+    }
+
+    .margins{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .ryan
+    {
+        height: 90%;
+        width: auto;
+        margin: auto;
+        max-height: 300px;
+    }
+
+}
+
+@media (min-width: 100em) {
+
+    .buttonSize{
+        font-size: 220%;
+        padding: 8px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .ryan{
+        margin: auto;
+        max-height: 700px;
+    }
+
+    .insideDiv{
+        height: 100px;
+        
+        top: 150px; left: 0; bottom: 0; right: 0; 
+    }
+
+    .topLogo{
+        width: 20%;
+    }
+
+    .background-image{
+      width: 100%;
+      height: auto;
+    }
+
+    .insideDiv{
+        height: 100px;
+        font-size: 60px;
+        top: 150px; left: 0; bottom: 0; right: 0; 
+    }
+
+    .betweenDivs{
+        font-size: 50px;
+    }
+
+    .divNormal p{
+    font-size: 40px;
+    }
+
+    .textUnder{
+        font-size: 30px;
+    }
+
+    .insideDetails{
+        height: 45px;
+    }
+
+    .border p{
+    font-size: 30px;
+    }
+
+    .left{
+        margin-left: 0%;
+    }
+    .right{
+        margin-right: 0%;
+    }
+
+/*    .ryan
+    {
+        max-height: 400px;
+    }*/
+
+
+
+
+
+}

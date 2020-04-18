@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://www.toursaroundadelaide.com.au/</loc>
+  <lastmod>2019-07-23T04:25:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.toursaroundadelaide.com.au/index.html</loc>
+  <lastmod>2019-07-23T04:25:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.toursaroundadelaide.com.au/directions.html</loc>
+  <lastmod>2019-07-21T12:07:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.toursaroundadelaide.com.au/weather.html</loc>
+  <lastmod>2019-07-21T12:08:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.toursaroundadelaide.com.au/about-us.html</loc>
+  <lastmod>2019-07-22T03:36:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
