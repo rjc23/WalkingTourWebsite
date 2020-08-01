@@ -1,0 +1,3 @@
+# WalkingTourWebsite
+
+Open index.html
